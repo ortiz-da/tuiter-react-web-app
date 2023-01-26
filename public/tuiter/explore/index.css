@@ -1,0 +1,93 @@
+/*All classes must be prefixed with "wd-"*/
+
+* {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+input {
+    color: white;
+    background-color: darkgrey;
+    border: none;
+}
+
+
+
+
+
+
+
+
+.wd-A {
+    /*padding-left: 16px;*/
+    /*padding-right: 16px;*/
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid yellow;
+    /* Reference: https://stackoverflow.com/a/1716357 */
+    overflow: auto;
+
+
+}
+
+.wd-search-bar {
+    width: 80%;
+    height: 32px;
+    border-radius: 16px;
+    float: left;
+    padding-left: 32px;
+}
+
+.wd-search-icon {
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    height: 16px;
+    background-color: transparent;
+}
+
+
+.wd-settings-button {
+    /*height: 16px;*/
+    float: right;
+    padding-right: 12px;
+}
+
+
+.wd-clear {
+    clear: both;
+}
+
+/*-----------------------------------------------------*/
+.wd-B {
+    /*padding-left: 16px;*/
+    /*padding-right: 16px;*/
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow: auto;
+    border: 2px solid green;
+
+}
+
+.wd-tab {
+    /*background-color: crimson;*/
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.wd-tab-text {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.wd-selected-tab-text {
+    font-size: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 5px solid rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+}
