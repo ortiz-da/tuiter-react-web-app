@@ -1,0 +1,82 @@
+h1 {
+    color: red;
+    background-color: yellow;
+}
+
+/*for class attributes*/
+.bg-orange {
+    background-color: darkorange;
+}
+
+.fg-blue {
+    color: #61dafb;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.col {
+    float: left;
+}
+
+.row {
+    clear: both;
+}
+
+.col-50pc {
+    float: left;
+    width: 50%;
+}
+
+.col-left-sidebar {
+    float: left;
+    width: 20%;
+    background-color: crimson;
+}
+
+.col-middle-sidebar {
+    float: left;
+    width: 60%;
+    background-color: darkred;
+}
+
+.col-right-sidebar {
+    float: left;
+    width: 20%;
+    background-color: crimson;
+}
+
+.col-1 {
+    float: left;
+    width: 8.33%;
+}
+.col-2 {
+    float: left;
+    width: 16.66%;
+}
+.col-3 {
+    float: left;
+    width: 25%;
+}
+.col-4 {
+    float: left;
+    width: 33.33%;
+}
+.col-5 {
+    float: left;
+    width: 41.66%;
+}
+.col-6 {
+    float: left;
+    width: 50%;
+}
+.col-8 {
+    float: left;
+    width: 66.66%;
+    background-color: crimson;
+}
