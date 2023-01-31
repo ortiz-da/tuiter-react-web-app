@@ -1,12 +1,21 @@
 * {
+    margin: 0px;
  font-family: "Segoe UI";
+    color: white;
+    background-color: black;
 }
 
 .wd-left-offset {
-    padding-left: 16px;
-    background-color: forestgreen;
-    border-left: 2px solid darkgrey;
-    border-right: 2px solid darkgrey;
+    /*padding-left: 16px;*/
+    background-color: black;
+    border-left: 2px solid rgb(47, 51, 54);
+    border-right: 2px solid rgb(47, 51, 54);
+    margin-left: 32px;
+
+}
+
+.wd-horizontal-borders {
+
 }
 
 .wd-search-bar {
@@ -15,24 +24,31 @@
     color: white;
     background-color: darkgrey;
     height: 32px;
-    padding-left: 32px;
+    padding-left: 40px;
+    width: 80%;
 }
 
 .wd-search-icon {
     position: absolute;
-    left: 28px;
-    top: 12px;
+    left: 56px;
+    top: 22px;
+    background-color: transparent;
 }
 
 .wd-gear-icon {
     position: absolute;
     right: 12px;
-    top: 12px;
+    top: 22px;
+    background-color: transparent;
+
 
 }
 
 .wd-sectionA {
+    padding-left: 16px;
+
     padding-bottom: 32px;
+    padding-top: 16px;
 }
 
 .wd-rpw {
@@ -68,14 +84,15 @@
 }
 
 .wd-sectionB {
+    padding-left: 16px;
 
 }
 
 .wd-spacer {
     height: 16px;
     /*margin-top: 1px;*/
-    border-bottom: 3px solid darkgrey;
-    border-top: 3px solid darkgrey;
+    border-bottom: 3px solid rgb(47, 51, 54);
+    border-top: 3px solid rgb(47, 51, 54);
     background-color: #13151b;
 
 }
@@ -91,6 +108,48 @@
 }
 
 .wd-tweetC {
+    padding-left: 16px;
+
+    border-top: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+.wd-tweetD {
+    padding-left: 16px;
+
+    border-top: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+
+}
+
+.wd-tweet-image {
+    float: right;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+}
+
+.wd-tweet-text-section {
+    float: left;
+}
+
+.wd-tweetE {
+    padding-left: 16px;
+
+    border-top: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+
+}
+
+
