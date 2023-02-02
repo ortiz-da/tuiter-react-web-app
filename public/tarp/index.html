@@ -10,7 +10,9 @@
 <div class="container">
     <h1>Welcome to Tarp</h1>
     <div class="row">
-        <div class="col-1">
+        <!--        SIZE 2 for medium and above-->
+        <!--        DONT SHOW UNTIL MEDIUM-->
+        <div class=" col-md-2 d-none d-md-block">
             <div class="list-group">
                 <a class="list-group-item" href="#">Northeastern</a>
                 <a class="list-group-item active" href="#">Dashboard</a>
@@ -22,17 +24,20 @@
             </div>
         </div>
 
-        <div class="col-2 ">
+        <!--        DONT SHOW UNTIL MEDIUM-->
+        <div class="col-md-2 d-none d-md-block">
             <div class="list-group">
                 <a class="list-group-item active" href="#">Home</a>
                 <a class="list-group-item" href="#">Modules</a>
                 <a class="list-group-item " href="#">Piazza</a>
                 <a class="list-group-item" href="#">Zoom</a>
+                <a class="list-group-item" href="grades.html">Grades</a>
+
 
             </div>
         </div>
 
-        <div class="col-7">
+        <div class="col-lg-6 col-md-8 col-12">
             <ul class="list-group border border-dark mb-3">
                 <li class="list-group-item list-group-item-primary">Resources</li>
                 <li class="list-group-item">Syllabus</li>
@@ -40,7 +45,7 @@
                 <li class="list-group-item">Github</li>
             </ul>
 
-            <ul class="list-group border border-dark mb-3" >
+            <ul class="list-group border border-dark mb-3">
                 <li class="list-group-item list-group-item-primary">Week1</li>
                 <li class="list-group-item">Reading</li>
                 <li class="list-group-item">Slides</li>
@@ -50,10 +55,9 @@
             </ul>
         </div>
 
-        <div class="col-2">
+        <div class="col-md-2 bg-warning d-none d-lg-block">
             <div class="list-group"><a class="list-group-item" href="#">Sidebar</a></div>
         </div>
-
     </div>
 </div>
 </body>
