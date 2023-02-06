@@ -5,3 +5,23 @@
 .wd-float-done {
     clear: both;
 }
+
+* {
+    margin: 0px;
+    font-family: "Segoe UI";
+    color: white;
+    background-color: black;
+}
+
+.wd-left-offset {
+    /*padding-left: 16px;*/
+    background-color: black;
+    border-left: 2px solid rgb(47, 51, 54);
+    border-right: 2px solid rgb(47, 51, 54);
+    margin-left: 32px;
+
+}
+
+.wd-float-done {
+    clear: both;
+}
