@@ -35,6 +35,34 @@ const students = [
     }
 ]
 
+// using jquery
+// $ is an alias for jQuery
+const jlist = $("#jlist")
+const sname = $("#sname")
+
+for (let j = 0; j < students.length; j++) {
+    const jli = jQuery(`<li>${students[j].name}</li>`);
+    jlist.append(jli)
+}
+
+function addStudentFn() {
+    // alert("add student")
+    jlist.append(`<li>${sname.val()} </li>`)
+}
+
+const $addStudentButton = $("#addStudent")
+// if you put addStudentFn() as param, it would call addStudentFn right away
+$addStudentButton.click(addStudentFn)
+
+
+// append puts things in the body of the element
+jlist.append(alice)
+jlist.append("<li>Bob</li>")
+jlist.append("<li>Charlie</li>")
+
+
+
+// using regular js
 const list = document.getElementById("list")
 let listItems = "";
 
@@ -59,16 +87,23 @@ hello123.style.color = "red"
 hello123.innerHTML = "TEST123 <button>Button</button>"
 
 
+// eslint-disable-next-line no-undef
 console.log(jQuery)
 
+// eslint-disable-next-line no-undef
 const hello234 = jQuery("#calc")
-// hello234.css('color', 'green')
+
+// Can set values this way
+hello234.css('color', 'green')
 hello234.css('background-color', 'yellow')
 
+// or with json
+// In json, quotes are optional, unless you need to use a dash
+// 'background-color' is the same as backgroundColor
 hello234.css(
     {
-        'color:': 'green',
-        'background-color': 'orange'
+        'color': 'white',
+        backgroundColor: 'orange'
     })
 
 
