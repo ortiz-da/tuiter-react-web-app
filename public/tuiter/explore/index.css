@@ -1,23 +1,16 @@
 /*All classes must be prefixed with "wd-"*/
 
-* {
-    font-family: Arial;
-    background-color: black;
-    color: white;
-}
+/** {*/
+/*    font-family: Arial;*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
 
 input {
     color: white;
     background-color: darkgrey;
     border: none;
 }
-
-
-
-
-
-
-
 
 .wd-A {
     /*padding-left: 16px;*/

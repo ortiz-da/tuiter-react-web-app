@@ -4,45 +4,171 @@
     <meta charset="UTF-8">
     <title>Explore</title>
     <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
 <body>
+<div class="container">
+    <div class="row">
+        <div class="col-2 bg-danger">
+            <div class="list-group">
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fab fa-twitter"></i></a>
+
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-home"></i> Home</a>
+                <a href="#" class=" list-group-item list-group-item-action active"><i class="fas fa-hashtag"></i>
+                    Explore</a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-bell"></i>
+                    Notifications</a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-envelope"></i> Messages</a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-bookmark"></i>
+                    Bookmarks</a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-list"></i> Lists</a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-user"></i> Profile</a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-minus-circle"></i> More</a>
+
+            </div>
+            <div class="d-flex">
+                <button type="button" class="btn btn-primary rounded-pill flex-fill my-1">Tweet</button>
+            </div>
+        </div>
+        <!--        MIDDLE SECTION-->
+        <div class="col-6 bg-info">
+
+            <div class="input-group mb-2">
+                <input type="text" class="form-control rounded-pill" placeholder="Search Tuiter">
+
+            </div>
+            <ul class="nav nav-tabs mb-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Entertainment</a>
+                </li>
+            </ul>
+
+            <!--            IMAGE-->
+            <div class="position-relative">
+                <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg?w=1390&crop=1"
+                     class="img-fluid">
+                <div class="position-absolute start-0 bottom-0 text-white m-1 fs-2 fw-bold">
+                    SpaceX's Starship
+                </div>
+            </div>
+
+            <!--            1 post-->
+            <div class="card rounded-0">
+                <div class="row p-2">
+                    <div class="col-10">
+                        <div class="text-secondary">Web Development</div>
+                        <div class="fw-bold">ReactJS <i class="fas fa-check-circle"></i> <span
+                                class="text-secondary fw-normal">- 2h</span>
+                        </div>
+                        <div class="fw-bold">
+                            React.js is a component based front end library that makes it very easy to build Single Page
+                            Applications or SPAs
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg">
+                    </div>
+
+                </div>
+            </div>
+
+            <!--            1 post-->
+            <div class="card rounded-0">
+                <div class="row p-2">
+                    <div class="col-10">
+                        <div class="fw-bold">JavaScript <i class="fas fa-check-circle"></i> <span
+                                class="text-secondary fw-normal">- 2h</span>
+                        </div>
+                        <div class="fw-bold">
+                            JavaScript is a programming language that can run on browsers as well as desktops
+                        </div>
+                        <div class="text-secondary">
+                            123K Tweets
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <img class="img-fluid rounded"
+                             src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+                    </div>
+                </div>
+            </div>
+
+            <!--            1 post-->
+            <div class="card rounded-0">
+                <div class="row p-2">
+                    <div class="col-10">
+                        <div class="text-secondary">Web Development</div>
+                        <div class="fw-bold">jQuery</div>
+                        <div class="text-secondary">
+                            123K Tweets
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <img class="img-fluid rounded"
+                             src="https://cdn.icon-icons.com/icons2/2415/PNG/512/jquery_plain_wordmark_logo_icon_146445.png">
+                    </div>
+
+                </div>
+            </div>
+
+            <!--            1 post-->
+            <div class="card rounded-0">
+                <div class="row p-2">
+                    <div class="col-10">
+                        <div class="text-secondary">Web Development</div>
+                        <div class="fw-bold">NodeJS <i class="fas fa-check-circle"></i> <span
+                                class="text-secondary fw-normal">- 2h</span></div>
+                        <div class="text-secondary">
+                            123K Tweets
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <img class="img-fluid rounded"
+                             src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png">
+                    </div>
+
+                </div>
+            </div>
 
 
-<div class="wd-A">
-    <input class="wd-search-bar" placeholder="Search Twitter"/>
-    <img src="search.png" class="wd-search-icon">
+        </div>
+        <!--        FOLLOW SECTION-->
+        <div class="col-4 bg-danger">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action fw-bold">Who to follow</a>
 
-    <div class="wd-settings-button">
-        <img src="settings.png">
+                <a href="#" class=" list-group-item list-group-item-action">
+                    <img class="img-fluid rounded-circle"
+                         src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png">
+                    <div class="fw-bold">Java <i class="fas fa-check-circle"></i></div>
+                    <div>@Java</div>
+                    <button type="button" class="btn btn-primary rounded-pill  my-1">Follow</button>
+
+
+                </a>
+
+            </div>
+        </div>
+
     </div>
 </div>
-
-<div class="wd-clear"></div>
-
-<div class="wd-B">
-    <div class="wd-tab">
-        <div class="wd-selected-tab-text">For you</div>
-    </div>
-    <div class="wd-tab">
-        <div class="wd-tab-text">Trending</div>
-    </div>
-    <div class="wd-tab">
-        <div class="wd-tab-text">COVID-19</div>
-    </div>
-    <div class="wd-tab">
-        <div class="wd-tab-text">News</div>
-    </div>
-    <div class="wd-tab">
-        <div class="wd-tab-text">Sports</div>
-    </div>
-    <div class="wd-tab">
-        <div class="wd-tab-text">Entertainment</div>
-    </div>
-</div>
-<div class="wd-clear"></div>
-
-<div class = wd-C>TEXT</div>
-
 
 </body>
 </html>
