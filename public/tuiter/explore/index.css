@@ -12,6 +12,15 @@ input {
     border: none;
 }
 
+.wd-search-tuiter {
+    z-index: 0;
+}
+
+.wd-search-tuiter-icon {
+    z-index: -1;
+}
+
+
 .wd-A {
     /*padding-left: 16px;*/
     /*padding-right: 16px;*/
