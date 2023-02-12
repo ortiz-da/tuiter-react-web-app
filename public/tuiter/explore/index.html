@@ -11,22 +11,27 @@
 </head>
 <body>
 <div class="container p-1">
+    <div class="d-block d-sm-none fa-2x">XS</div>
+    <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+    <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+    <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+    <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+    <div class="d-none d-xxl-block fa-2x">XXL</div>
+
+
     <div class="row">
-        <div class="col-2">
+        <div class="d-block col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
             <div class="list-group">
                 <a href="#" class=" list-group-item list-group-item-action"><i class="fab fa-twitter"></i></a>
 
-                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-home"></i> Home</a>
-                <a href="#" class=" list-group-item list-group-item-action active"><i class="fas fa-hashtag"></i>
-                    Explore</a>
-                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-bell"></i>
-                    Notifications</a>
-                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-envelope"></i> Messages</a>
-                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-bookmark"></i>
-                    Bookmarks</a>
-                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-list"></i> Lists</a>
-                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-user"></i> Profile</a>
-                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-minus-circle"></i> More</a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-home"></i> <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"> Home</span></a>
+                <a href="#" class=" list-group-item list-group-item-action active"><i class="fas fa-hashtag"></i><span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"> Explore</span></a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-bell"></i><span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"> Notifications</span></a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-envelope"></i><span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"> Messages</span></a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-bookmark"></i><span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"> Bookmarks</span></a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-list"></i><span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"> Lists</span></a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-user"></i><span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"> Profile</span></a>
+                <a href="#" class=" list-group-item list-group-item-action"><i class="fas fa-minus-circle"></i><span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline"> More</span></a>
 
             </div>
             <div class="d-flex">
@@ -34,7 +39,7 @@
             </div>
         </div>
         <!--        MIDDLE SECTION-->
-        <div class="col-6">
+        <div class="d-block col-9 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
 <!--            https://getbootstrap.com/docs/4.0/utilities/vertical-align/-->
 
             <div class="input-group mb-2 align-items-center">
@@ -54,19 +59,19 @@
             </div>
             <ul class="nav nav-tabs mb-2">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">For you</a>
+                    <a class="nav-link active" href="for-you.html">For you</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Trending</a>
+                    <a class="nav-link " href="trending.html">Trending</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">News</a>
+                    <a class="nav-link " href="news.html">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Sports</a>
+                    <a class="nav-link " href="sports.html">Sports</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Entertainment</a>
+                    <a class="nav-link " href="entertainment.html"><span class="d-none d-sm-none d-md-inline">Entertainment</span></a>
                 </li>
             </ul>
 
@@ -165,7 +170,7 @@
         </div>
         <!--        FOLLOW SECTION-->
         <!--        REFERENCE: https://getbootstrap.com/docs/4.0/components/list-group/#with-badges-->
-        <div class="col-4 ">
+        <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block col-lg-4 col-xl-4 col-xxl-4">
             <div class="list-group">
                 <div class="list-group-item  fw-bold">Who to follow</div>
 
