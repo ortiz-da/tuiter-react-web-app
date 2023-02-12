@@ -35,7 +35,11 @@
         <div class="col-6 bg-info">
 
             <div class="input-group mb-2">
-                <input type="text" class="form-control rounded-pill" placeholder="Search Tuiter">
+
+                <input type="text" class="form-control rounded-pill ps-5" placeholder="Search Tuiter">
+                <span class="position-absolute start-0 ps-3 align-middle">
+                    <i class="fas fa-search"></i>
+                </span>
 
             </div>
             <ul class="nav nav-tabs mb-2">
@@ -150,21 +154,128 @@
 
         </div>
         <!--        FOLLOW SECTION-->
+        <!--        REFERENCE: https://getbootstrap.com/docs/4.0/components/list-group/#with-badges-->
         <div class="col-4 bg-danger">
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action fw-bold">Who to follow</a>
+                <div class="list-group-item  fw-bold">Who to follow</div>
 
-                <a href="#" class=" list-group-item list-group-item-action">
-                    <img class="img-fluid rounded-circle"
-                         src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png">
-                    <div class="fw-bold">Java <i class="fas fa-check-circle"></i></div>
-                    <div>@Java</div>
-                    <button type="button" class="btn btn-primary rounded-pill  my-1">Follow</button>
+                <!--                ONE ACCOUNT-->
+                <li class="list-group-item d-flex justify-content-between align-items-center">
 
+<!--                    Account image-->
+                    <div class="float-start">
+                        <img class="img-fluid rounded-circle m-2" width="36px" height="36px"
+                             src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png">
+                    </div>
 
-                </a>
+<!--                    Account name-->
+                    <span class="col">
+                            <span class="fw-bold">Java</span>
+                            <i class="fas fa-check-circle"></i>
+                        </br>@java
+
+                        </span>
+
+<!--                    Follow button-->
+                    <div class="float-end">
+                        <button type="button" class="btn btn-primary rounded-pill  my-1">Follow</button>
+                    </div>
+                </li>
+
+                <!--                ONE ACCOUNT-->
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                    <!--                    Account image-->
+                    <div class="float-start">
+                        <img class="img-fluid rounded-circle m-2" width="36px" height="36px"
+                             src="https://pbs.twimg.com/profile_images/1405603367045324801/CaXrPnKL_400x400.jpg">
+                    </div>
+
+                    <!--                    Account name-->
+                    <span class="col">
+                            <span class="fw-bold">Relativity Space</span>
+                            <i class="fas fa-check-circle"></i>
+                        </br>@relativityspace
+
+                        </span>
+
+                    <!--                    Follow button-->
+                    <div class="float-end">
+                        <button type="button" class="btn btn-primary rounded-pill  my-1">Follow</button>
+                    </div>
+                </li>
+
+                <!--                ONE ACCOUNT-->
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                    <!--                    Account image-->
+                    <div class="float-start">
+                        <img class="img-fluid rounded-circle m-2" width="36px" height="36px"
+                             src="https://pbs.twimg.com/profile_images/1552524922768879616/uwIfUsmz_400x400.jpg">
+                    </div>
+
+                    <!--                    Account name-->
+                    <span class="col">
+                            <span class="fw-bold">Virgin Galactic</span>
+                            <i class="fas fa-check-circle"></i>
+                        </br>@virgingalactic
+
+                    </span>
+
+                    <!--                    Follow button-->
+                    <div class="float-end">
+                        <button type="button" class="btn btn-primary rounded-pill  my-1">Follow</button>
+                    </div>
+                </li>
+
+                <!--                ONE ACCOUNT-->
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                    <!--                    Account image-->
+                    <div class="float-start">
+                        <img class="img-fluid rounded-circle m-2" width="36px" height="36px"
+                             src="https://images.seattletimes.com/wp-content/uploads/2019/07/nasameatball.jpg?d=780x701">
+                    </div>
+
+                    <!--                    Account name-->
+                    <span class="col">
+                            <span class="fw-bold">NASA</span>
+                            <i class="fas fa-check-circle"></i>
+                        </br>@NASA
+                    </span>
+
+                    <!--                    Follow button-->
+                    <div class="float-end">
+                        <button type="button" class="btn btn-primary rounded-pill  my-1">Follow</button>
+                    </div>
+                </li>
+
+                <!--                ONE ACCOUNT-->
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                    <!--                    Account image-->
+                    <div class="float-start">
+                        <img class="img-fluid rounded-circle m-2" width="36px" height="36px"
+                             src="https://www.rvccr.com/wp-content/uploads/tesla.png">
+                    </div>
+
+                    <!--                    Account name-->
+                    <span class="col">
+                            <span class="fw-bold">Tesla</span>
+                            <i class="fas fa-check-circle"></i>
+                        </br>@Tesla
+                    </span>
+
+                    <!--                    Follow button-->
+                    <div class="float-end">
+                        <button type="button" class="btn btn-primary rounded-pill  my-1">Follow</button>
+                    </div>
+                </li>
 
             </div>
+
+
+
         </div>
 
     </div>
