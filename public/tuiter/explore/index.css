@@ -12,6 +12,10 @@ input {
     border: none;
 }
 
+.form-control.override-bs {
+    z-index: 0
+}
+
 .wd-search-tuiter {
     z-index: 0;
 }
