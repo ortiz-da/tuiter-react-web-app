@@ -1,10 +1,10 @@
 /*All classes must be prefixed with "wd-"*/
 
-* {
-    font-family: Arial;
-    background-color: black;
-    color: white;
-}
+/** {*/
+/*    font-family: Arial;*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
 
 input {
     color: white;
@@ -12,11 +12,17 @@ input {
     border: none;
 }
 
+.form-control.override-bs {
+    z-index: 0
+}
 
+.wd-search-tuiter {
+    z-index: 0;
+}
 
-
-
-
+.wd-search-tuiter-icon {
+    z-index: -1;
+}
 
 
 .wd-A {
