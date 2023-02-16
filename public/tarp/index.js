@@ -1,3 +1,5 @@
+import TarpNavigator from "./TarpNavigator.js";
+
 const tarp = jQuery("#tarp")
 
 tarp.append(
@@ -45,7 +47,7 @@ tarp.append(
         </div>
 
         <div class="col-md-2 bg-warning d-none d-lg-block">
-            <div class="list-group"><a class="list-group-item" href="#">Sidebar</a></div>
+            <div class="list-group">Sidebar</div>
         </div>
     </div>
 </div>`
