@@ -16,7 +16,7 @@ const WhoToFollowListItem = (who) => {
             <span class="col">
                     <span class="fw-bold">${userName}</span>
                     <i class="fas fa-check-circle"></i>
-                </br>${handle}
+                </br>@${handle}
 
                 </span>
 
