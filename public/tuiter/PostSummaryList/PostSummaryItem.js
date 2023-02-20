@@ -1,6 +1,6 @@
 const PostSummaryItem = (post) => {
 
-    let {topic, userName, time, title, image} = post;
+    let {topic, userName, time, title, image, tweets} = post;
 
     return (`
         <div class="list-group-item list-group-item-action p-1">
@@ -11,7 +11,9 @@ const PostSummaryItem = (post) => {
                             class="text-secondary fw-normal">- ${time}</span>
                     </div>
                     <div class="fw-bold">${title}</div>
+                    <div class="text-secondary">${tweets == null ? "" : tweets + " Tweets"}</div>
                 </div>
+
                 <div class="col-md-2 col-3">
                     <img src=${image} class="img-fluid rounded">
                 </div>

@@ -34,10 +34,10 @@ const ExploreComponent = () => {
                 </li>
             </ul>
            <!-- image with overlaid text -->
-           <div class="position-relative">
+           <div class="position-relative mb-2">
                 <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg?w=1390&crop=1"
                      class="img-fluid">
-                <div class="position-absolute start-0 bottom-0 text-secondary m-2 fs-2 fw-bold">
+                <div class="position-absolute start-0 bottom-0 text-light m-2 fs-2 fw-bold">
                     SpaceX's Starship
                 </div>
             </div>
