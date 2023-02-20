@@ -14,14 +14,14 @@ const WhoToFollowListItem = (who) => {
 
 <!--                    Account name-->
             <span class="col">
-                    <span class="fw-bold">${userName}</span>
-                    <i class="fas fa-check-circle"></i>
+                <span class="fw-bold">${userName} <i class="fas fa-check-circle"></i></span>
                 </br>@${handle}
 
-                </span>
+            </span>
 
 <!--                    Follow button-->
-            <div class="float-end">
+            <div class="position-absolute end-0 mx-3">
+<!--            USED TO USE FLOAT END-->
                 <button type="button" class="btn btn-primary rounded-pill my-1">Follow</button>
             </div>
         </a>
