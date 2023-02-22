@@ -1,29 +1,24 @@
-import './App.css';
-import SimpleComponent from "./SimpleComponent";
-import Loops from "./Loops";
-import Add from "./Add";
-import Destructors from "./Destructors";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Home from "./Home";
+import Labs from "./labs";
+import HelloWorld from "./labs/a6/hello-world";
+import Tuiter from "./tuiter";
+import {BrowserRouter} from "react-router-dom";
+import {Routes, Route} from "react-router";
+
 
 function App() {
-
     return (
-        <div className={"container"}>
-
-            <BrowserRouter>
+        <BrowserRouter>
+            <div className="container">
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    {/*If the URL has a /add inside of it, include this add element*/}
-                    <Route path="/add/:parama/:paramb" element={<Add/>}/>
-                    <Route path="/destructor" element={<Destructors/>}/>
-                    <Route path="/loops" element={<Loops/>}/>
-                    <Route path="/simple" element={<SimpleComponent/>}/>
-
-
+                    <Route index
+                           element={<Labs/>}/>
+                    <Route path="/hello"
+                           element={<HelloWorld/>}/>
+                    <Route path="/tuiter"
+                           element={<Tuiter/>}/>
                 </Routes>
-            </BrowserRouter>
-        </div>
+            </div>
+        </BrowserRouter>
     );
 }
 
