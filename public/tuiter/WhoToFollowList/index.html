@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+
+    <script crossorigin="anonymous"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <script type="module">
+        import WhoToFollowList from "./index.js";
+
+        $('#test1').append(`${WhoToFollowList()}`);
+    </script>
+
+
+</head>
+<body>
+<h1>Test</h1>
+
+<div class="container">
+    <div id="test1"></div>
+</div>
+
+</body>
+</html>
