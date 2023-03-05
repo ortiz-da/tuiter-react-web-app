@@ -21,8 +21,6 @@ function Tuiter() {
                         <WhoToFollowList/>
                     </div>
                 </div>
-
-
             </div>
         </>
 
