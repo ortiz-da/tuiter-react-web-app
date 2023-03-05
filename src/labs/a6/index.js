@@ -10,7 +10,6 @@ function Assignment6() {
         <div>
             <h1>Assignment 6</h1>
             <TodoList/>
-            <TodoItem/>
             <ConditionalOutput/>
 
             <Styles/>
